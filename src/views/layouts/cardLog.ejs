@@ -1,0 +1,26 @@
+<div class="container mt-5">
+  <h2 class="text-center mb-4 bg-light">Logs</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>User Role</th>
+        <th>Action</th>
+        <th>Entity</th>
+        <th>Entity ID</th>
+        <th>Timestamp</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% logs.forEach(log => { %>
+      <tr>
+        <td><%= log.userRole %></td>
+        <td><%= log.action %></td>
+        <td><%= log.entity %></td>
+        <td><%= log.entityId %></td>
+        <td><%= log.timestamp %></td>
+      </tr>
+      <% }); %>
+    </tbody>
+  </table>
+</div>
+

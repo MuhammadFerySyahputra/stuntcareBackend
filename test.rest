@@ -1,0 +1,250 @@
+// 1. CRUD Mpasi
+POST http://localhost:3000/api/mpasi
+Content-Type: application/json
+
+{
+  "makanan": "Bubur bayi",
+  "porsi": 2,
+  "bahan": {
+    "kentang": "50gr",
+    "telur": "1 butir",
+    "kaldu sapi": "50 ml"
+  },
+  "cara_masak": [
+    "Kupas dan potong kentang menjadi potongan kecil-kecil.",
+    "Rebus kentang hingga empuk, lalu tiriskan.",
+    "Kocok telur dan tambahkan ke dalam kentang yang telah dihaluskan.",
+    "Panaskan kaldu sapi dan tambahkan ke dalam campuran kentang dan telur. Aduk hingga merata.",
+    "Masak campuran tersebut dengan api kecil hingga mengental dan menjadi bubur yang lembut.",
+    "Angkat dan biarkan dingin sebelum disajikan kepada bayi."
+  ],
+  "kategori": "6-8 bulan",
+  "gambar": "https://link.gambar.com",
+  "kalori": 100,
+  "protein": 6,
+  "lemak": 3.5,
+  "karbohidrat": 7.8
+}
+
+###
+GET http://localhost:3000/api/mpasi
+
+###
+# halaman selanjutnya
+GET http://localhost:3000/api/mpasi?page=2&limit=12
+
+###
+GET http://localhost:3000/api/mpasi/40
+
+###
+PUT http://localhost:3000/api/mpasi/1
+Content-Type: application/json
+
+{
+  "makanan": "Bubur a",
+  "bahan": {
+    "kentang": "10 gr",
+    "telur": "1 butir",
+    "kaldu sapi": "50 ml"
+  },
+  "cara_masak": [
+    "Kupas dan potong kentang menjadi potongan kecil-kecil.",
+    "Rebus kentang hingga empuk, lalu tiriskan.",
+    "Kocok telur dan tambahkan ke dalam kentang yang telah dihaluskan.",
+    "Panaskan kaldu sapi dan tambahkan ke dalam campuran kentang dan telur. Aduk hingga merata.",
+    "Masak campuran tersebut dengan api kecil hingga mengental dan menjadi bubur yang lembut.",
+    "Angkat dan biarkan dingin sebelum disajikan kepada bayi."
+  ],
+  "kategori": "6-8 bulan",
+  "gambar": "https://link.perubahan.com",
+  "kalori": 100,
+  "protein": 6,
+  "lemak": 3.5,
+  "karbohidrat": 7.8
+}
+
+###
+DELETE  http://localhost:3000/api/mpasi/3
+
+###
+GET http://localhost:3000/api/mpasi?kategori=6-8 bulan
+
+###
+GET http://localhost:3000/api/mpasi?limit=30,kategori=6-8 bulan
+
+###
+GET http://localhost:3000/api/mpasi?q=bubur
+
+###
+GET http://localhost:3000/api/mpasi?page=2
+
+
+
+
+
+###
+// 2. CRUD Artikel
+POST http://localhost:3000/api/artikel
+Content-Type: application/json
+
+{
+  "judul" : "Apa penyebab kekurangan gizi pada anak",
+  "deskripsi" : "Stunting adalah kondisi terhambatnya pertumbuhan fisik dan perkembangan otak pada anak-anak, biasanya disebabkan oleh kurangnya asupan gizi yang memadai dan infeksi pada masa awal kehidupan",
+  "tanggal": "2024-05-14",
+  "sumber": "http://sumber.com",
+  "gambar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFV4oRjeIPLpkuKodp6Vpi5_dsr0_wz-D7uuuNz5zglw&s",
+  "kategori": "6-8 bulan"
+}
+
+###
+GET http://localhost:3000/api/artikel
+Content-Type: application/json
+
+###
+# halaman selanjutnya
+GET http://localhost:3000/api/artikel?page=2&limit=6
+Content-Type: application/json
+
+###
+GET http://localhost:3000/api/artikel/1
+Content-Type: application/json
+
+###
+GET http://localhost:3000/api/artikel?kategori=Semua
+
+###
+GET http://localhost:3000/api/artikel?q=stunting
+
+###
+PUT http://localhost:3000/api/artikel/1
+Content-Type: application/json
+
+{
+  "judul" : "Apa itu stunting fase 2",
+  "deskripsi" : "Stunting adalah kondisi terhambatnya pertumbuhan fisik dan perkembangan otak pada anak-anak, biasanya disebabkan oleh kurangnya asupan gizi yang memadai dan infeksi pada masa awal kehidupan",
+  "tanggal": "2024-05-14",
+  "sumber": "http://sumber.com",
+  "gambar": "https://link.gambar.com",
+  "kategori": "Semua Kategori"
+}
+
+###
+DELETE  http://localhost:3000/api/artikel/2
+
+
+
+
+# 3 USER
+###
+POST http://localhost:3000/users/register
+Content-Type: application/json
+
+{
+  "username": "baru",
+  "email": "baru@example.com",
+  "password": "password123",
+  "role": "user"
+}
+
+###
+POST http://localhost:3000/users/login
+Content-Type: application/json
+
+{
+  "email": "baru@example.com",
+  "password": "password123"
+}
+
+###
+GET http://localhost:3000/api/users/10
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxMCwicm9sZSI6InVzZXIifSwiaWF0IjoxNzE2MzQzNDQ0LCJleHAiOjE3MTYzNDQzNDR9.jPmEoWz8j2G-vPmCtMVN29oIo3MB6BA1pp9IsMyYbW8
+
+###
+PUT http://localhost:3000/api/users/10
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxMCwicm9sZSI6InVzZXIifSwiaWF0IjoxNzE2MzQzNDQ0LCJleHAiOjE3MTYzNDQzNDR9.jPmEoWz8j2G-vPmCtMVN29oIo3MB6BA1pp9IsMyYbW8
+
+{
+  "username": "testing"
+}
+
+
+
+###
+DELETE http://localhost:3000/api/users/10
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxMCwicm9sZSI6InVzZXIifSwiaWF0IjoxNzE2MzQzNDQ0LCJleHAiOjE3MTYzNDQzNDR9.jPmEoWz8j2G-vPmCtMVN29oIo3MB6BA1pp9IsMyYbW8
+
+
+###
+POST http://localhost:3000/users/refresh-token
+Content-Type: application/json
+
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5LCJyb2xlIjoidXNlciJ9LCJpYXQiOjE3MTYzMzQzNzEsImV4cCI6MTcxNjQyMDc3MX0.TaBlQfVFYN2ZgYsvbjzg70M1WT3CpfrIsbTc_sH6WcA"
+}
+
+###
+DELETE http://localhost:3000/users/logout
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5LCJyb2xlIjoidXNlciJ9LCJpYXQiOjE3MTYzNDM4ODIsImV4cCI6MTcxNjM0NDc4Mn0.lC8-OnO9OXnHL7t4GGYCN7zc0jD9EKtBq_S3QgetcEg
+
+
+###
+POST  https://api.stuntcare.muhammadferysyahputra.my.id//users/register
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "email": "admin@gmail.com",
+  "password": "password",
+  "role": "user"
+}
+
+###
+POST https://api.stuntcare.muhammadferysyahputra.my.id//users/login
+Content-Type: application/json
+
+{
+  "email": "admin@gmail.com",
+  "password": "password"
+}
+
+###
+POST http://localhost:3000/api/komentar
+Content-Type: application/json
+
+{
+  "nama": "afa",
+  "komentar": "Mantap",
+  "mpasiId": 1
+}
+
+###
+POST http://localhost:3000/api/komentar
+Content-Type: application/json
+
+{
+  "nama": "abu",
+  "komentar": "Komentar aja ini boy",
+  "artikelId": 29
+}
+
+###
+DELETE http://localhost:3000/api/komentar/1
+
+###
+GET http://localhost:3000/api/komentar/artikel/29
+
+###
+GET http://localhost:3000/api/komentar/mpasi/1
+
+
+###
+GET http://localhost:3000/api/artikel?order=desc
+
+###
+GET http://localhost:3000/api/artikel?order=asc
+
+###
+GET http://localhost:3000/api/artikel?page=1&limit=6&order=asc
+
+# {BASE_URL}/api/artikel?order=${order}?page=${page}&limit=6

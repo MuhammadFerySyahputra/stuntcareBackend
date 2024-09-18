@@ -1,0 +1,776 @@
+
+{
+  "makanan": "Bubur Hati Ayam",
+  "porsi": 3,
+  "bahan": {
+    "nasi": "60gr",
+    "hati ayam": "30gr",
+    "minyak jagung": "7,5ml",
+    "garam": "secukupnya (jika diperlukan)"
+  },
+  "cara_masak": [
+    "Tumis bumbu halus hingga harum.",
+    "Masukkan hati ayam, aduk hingga berubah warna.",
+    "Masukkan bayam dan garam secukupnya.",
+    "Masukkan nasi, aduk hingga teksturnya sesuai keinginan."
+  ],
+  "kategori": "6-8 bulan",
+  "gambar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGpeLd7_frYsELL1erPmeJ04NjZYEEoA_6bpHkFIi7Bw&s",
+  "kalori": 67,
+  "protein": 3,
+  "lemak": 6,
+  "karbohidrat": 6
+},
+{
+  "makanan": "Ayam Kecap",
+  "porsi": 3,
+  "bahan": {
+    "beras": "60gr",
+    "kaldu ayam": "300ml",
+    "daging ayam": "100gr",
+    "Kecap manis": "2 sdm",
+    "minyak jagung": "1,5 sdm"
+  },
+  "cara_masak": [
+    "Kupas dan potong kentang menjadi potongan kecil-kecil.",
+    "Rebus kentang hingga empuk, lalu tiriskan.",
+    "Kocok telur dan tambahkan ke dalam kentang yang telah dihaluskan.",
+    "Panaskan kaldu sapi dan tambahkan ke dalam campuran kentang dan telur. Aduk hingga merata.",
+    "Masak campuran tersebut dengan api kecil hingga mengental dan menjadi bubur yang lembut.",
+    "Angkat dan biarkan dingin sebelum disajikan kepada bayi."
+  ],
+  "kategori": "9-12 bulan",
+  "gambar": "https://img-global.cpcdn.com/recipes/b7e800b9e1c73f32/680x482cq70/nasi-tim-ayam-kecap-mpasi-9-foto-resep-utama.jpg",
+  "kalori": 128,
+  "protein": 5.8,
+  "lemak": 5.4,
+  "karbohidrat": 13.6
+},
+{
+  "makanan": "Bubur Patin",
+  "porsi": 3,
+  "bahan": {
+    "Nasi": "60 gram",
+    "Hati Ayam": "30 gram",
+    "Minyak Jagung": "7.5 ml",
+    "Bawang Bombai": "3 iris",
+    "Jahe": "1/3 cm",
+    "Daun salam" : "1 lembar",
+    "Tomat, potong kecil-kecil": "10 gram"
+  },
+  "cara_masak": [
+    "1, Lumuri ikan patin dan hati ayam dengan jeruk nipis dan garam, diamkan 15 menit",
+    "2. Campur ikan patin dan hati ayam dengan bumbu halus, tambahkan tomat, bawang bombai, jahe, seledri, daun salam, dan daun jeruk",
+    "3. Kukus hingga matang",
+    "4. Ketika akan dicampur dengan nasi, ambil daun salam dan daun jeruknya. Lalu saring hingga teksturnya sesuai yang diinginkan."
+  ],
+  "kategori": "6-8 bulan",
+  "gambar": "https://img.herstory.co.id/articles/archive_20220511/resep-mpasi-20220511-142142.webp",
+  "kalori": 80,
+  "protein": 4.3,
+  "lemak": 4.3,
+  "karbohidrat": 6
+},
+{
+  "makanan": "Bubur Daging Sapi",
+  "porsi": 3,
+  "bahan": {
+    "Nasi": "60 gram",
+    "Daging Sapi Giling": "50 gram",
+    "Minyak Jagung": "7.5 ml",
+    "Bayam, rebus matang, iris kecil-kecil": "15 gram",
+    "Minyak Kelapa": "7.5 ml",
+    "Garam" : "Secukupnya"
+  },
+  "cara_masak": [
+    "1. Kukus daging sapi giling yang sudah dicampur bumbu halus di dalam wadah tahan panas hingga matang",
+    "2. Tambahkan bayam",
+    "3. Masukkan minyak kelapa dan garam secukupnya",
+    "4. Ketika akan dicampur dengan nasi, ambil daun salam dan daun jeruknya. Lalu saring hingga teksturnya sesuai yang diinginkan."
+  ],
+  "kategori": "6-8 bulan",
+  "gambar": "https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1634025439/7eb31d6a3a0418b558d1086f346f1b3c1a880bed7346f4223e15227a763a1827.jpg",
+  "kalori": 80,
+  "protein": 4.3,
+  "lemak": 4.3,
+  "karbohidrat": 6
+},
+{
+  "makanan": "Bubur Kakap Tempe",
+  "porsi": 3,
+  "bahan": {
+    "Nasi": "60 gram",
+    "Ikan kakap, cincang halus": "45 gram",
+    "Tempe": "15 gram",
+    "Kaldu Ikan": "250 ml",
+    "Minyak Kedelai": "7.5 ml",
+    "Bawang Putih" : "1 siung"
+  },
+  "cara_masak": [
+    "1. Lumuri ikan kakap dengan bawang, diamkan selama 15 menit",
+    "2. Rebus semua bahan dengan kaldu ikan hingga matang dan lunak",
+    "3. Tambahkan nasi, lalu saring hingga teksturnya sesuai yang diinginkan",
+    "4. Ketika akan dicampur dengan nasi, ambil daun salam dan daun jeruknya. Lalu saring hingga teksturnya sesuai yang diinginkan."
+  ],
+  "kategori": "6-8 bulan",
+  "gambar": "https://asset-2.tstatic.net/lombok/foto/bank/images/Ilustrasi-bubur.jpg",
+  "kalori": 90,
+  "protein": 8,
+  "lemak": 3.6,
+  "karbohidrat": 6.3
+},
+{
+  "makanan": "Bola Nasi",
+  "porsi": 3,
+  "bahan": {
+    "Nasi": "75 gram",
+    "Daging ayam, giling": "50 gram",
+    "Tahu": "20 gram",
+    "Telur, kocok": "1 buah",
+    "Tepung Maizena": "2 sdm",
+    "Wortel Parut" : "1 siung",
+    "Tepung roti" : "secukupnya",
+    "Minyak kedelai" : "secukupnya"
+  },
+  "cara_masak": [
+    "1. Campurkan nasi, tahu, wortel, tepung maizena, daging ayam giling, bumbu halus, dan telur kocok",
+    "2. Bentuk adonan menjadi bola, lalu kukus selama 15 menit hingga adonan matang",
+    "3. Celupkan bola nasi ke dalam telur kocok, lalu gulirkan ke dalam tepung roti hingga semua permukaannya tertutup",
+    "4. Goreng hingga berubah warna dan matang"
+  ],
+  "kategori": "9-12 bulan",
+  "gambar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQceKwsR8oFLazgq-ZGRnXd5FODjaebvY2frA&s",
+  "kalori": 142,
+  "protein": 5.7,
+  "lemak": 8.3,
+  "karbohidrat": 11
+},
+{
+  "makanan": "Tim Mie Ayam",
+  "porsi": 3,
+  "bahan": {
+    "Mie telur, rebus hingga matang": "150 gram",
+    "Daging ayam, cincang": "75 gram",
+    "Tahu": "20 gram",
+    "Telur ayam": "1 butir",
+    "Kaldu ayam": "200 ml",
+    "Kecap asin" : "1 sdt",
+    "Kecap manis" : "1 sdt",
+    "Sawi, iris kecil" : "30 gram",
+    "Minyak Canola" : "10 ml",
+    "Daun seledri": "secukupnya"
+  },
+  "cara_masak": [
+    "1. Campurkan mie telur yang sudah matang dengan bumbu halus, kecap asin, kecap manis, telur ayam kocok, kaldu ayam, dan daging ayam cincang. Aduk hingga tercampur rata. Tambahkan minyak canola",
+    "2. Masukkan campuran mie ke dalam wadah tahan panas, lalu kukus hingga kaldu terserap mie",
+    "3. Tambahkan irisan seledri dan sawi, lalu kukus kembali hingga matang",
+    "4. Goreng hingga berubah warna dan matang"
+  ],
+  "kategori": "9-12 bulan",
+  "gambar": "https://img-global.cpcdn.com/recipes/a6a7786a65dfec53/680x482cq70/tim-mie-ayam-mpasi-10m-foto-resep-utama.webp",
+  "kalori": 150,
+  "protein": 6.5,
+  "lemak": 6.8,
+  "karbohidrat": 15
+},
+{
+  "makanan": "Nasi Ayam Katsu",
+  "porsi": 3,
+  "bahan": {
+    "nasi": "200 gram",
+    "daging ayam fillet": "100 gram",
+    "wortel": "20 gram",
+    "buncis": "20 gram",
+    "telur kocok": "1/2 butir",
+    "jeruk nipis": "1 buah",
+    "tepung panir": "secukupnya",
+    "garam": "secukupnya",
+    "merica": "secukupnya",
+    "minyak goreng": "secukupnya"
+  },
+  "cara_masak": [
+    "1. Rebus daging ayam fillet hingga matang, lalu haluskan.",
+    "2. Campurkan daging ayam halus dengan wortel, buncis, telur kocok, garam, dan merica.",
+    "3. Bentuk adonan menjadi bulat pipih, lalu gulingkan ke tepung panir.",
+    "4. Goreng hingga matang dan kecoklatan.",
+    "5. Sajikan dengan nasi dan jeruk nipis."
+  ],
+  "kategori": "12-23 bulan",
+  "gambar": "https://i.ytimg.com/vi/GvVJOVP6MGQ/maxresdefault.jpg",
+  "kalori": 186,
+  "protein": 7.9,
+  "lemak": 8.3,
+  "karbohidrat": 20
+},
+{
+  "makanan": "Tim Kentang Telur",
+  "porsi": 3,
+  "bahan": {
+    "kentang": "150 gram, rebus, haluskan",
+    "daging ayam cincang": "50 gram, rebus",
+    "wortel parut": "12 sdm",
+    "telur": "1 butir, kocok lepas",
+    "margarin": "10 gram",
+    "garam": "secukupnya"
+  },
+  "cara_masak": [
+    "1. Campur semua bahan, aduk rata.",
+    "2. Tambahkan air hingga adonan tenggelam dalam air, lalu masukkan ke dalam wadah tahan panas.",
+    "3. Kukus hingga matang."
+  ],
+  "kategori": "9-12 bulan",
+  "gambar": "https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:good,w_640,ar_16:9/v1634025439/018115264801f532a73d4381880ea01b.jpg",
+  "kalori": 130,
+  "protein": 5.8,
+  "lemak": 6.4,
+  "karbohidrat": 13
+},
+{
+  "makanan": "Mie Tek-Tek",
+  "porsi": 3,
+  "bahan": {
+    "mie telur": "150 gram, sudah direbus hingga lunak",
+    "daging ayam": "100 gram, rebus, potong kecil-kecil",
+    "sawi": "30 gram, potong kasar",
+    "telur mata sapi": "1 butir",
+    "kecap manis": "2 sdm",
+    "kecap asin": "1 sdm",
+    "minyak kelapa": "15 ml, untuk menumis",
+    "garam": "secukupnya",
+    "gula": "secukupnya",
+    "merica": "secukupnya",
+    "bawang daun": "secukupnya, iris tipis",
+    "bawang putih": "2 siung",
+    "bawang merah": "2 buah",
+    "kemiri sangrai": "2 butir"
+  },
+  "cara_masak": [
+    "1. Tumis bumbu halus, lalu masukkan bawang daun hingga harum.",
+    "2. Masukkan mi, ayam, dan sawi.",
+    "3. Tambahkan kecap manis, kecap asin, gula, garam, dan merica secukupnya, lalu aduk hingga tercampur rata.",
+    "4. Hidangkan dengan telur mata sapi."
+  ],
+  "kategori": "12-23 bulan",
+  "gambar": "https://img-global.cpcdn.com/recipes/438a7504c8046be6/680x482cq70/mie-tek-tek-udang-kuah-mpasi-1-y-foto-resep-utama.webp",
+  "kalori": 280,
+  "protein": 9.4,
+  "lemak": 8.6,
+  "karbohidrat": 28.4
+},
+{
+  "makanan": "Semur Ayam",
+  "porsi": 3,
+  "bahan": {
+    "nasi": "60 gram",
+    "daging ayam cincang": "300 ml",
+    "tahu putih cincang": "100 gram",
+    "wortel parut": "4 sdm",
+    "kecap manis": "2 sdm",
+    "minyak jagung": "1 sdm",
+    "Merica dan garam": "secukupnya",
+    "Bawang putih": "1 siung",
+    "Bawang merah": "1 buah"
+  },
+  "cara_masak": [
+    "1. Tumis bumbu halus hingga harum, lalu masukkan daging ayam cincang.",
+    "2. Tambahkan wortel, kecap manis, dan garam secukupnya. Masak kembali.",
+    "3. Masukkan nasi, tumis ayam, dan tahu putih ke dalam wadah tahan panas, tambahkan kaldu ayam. Kukus hingga matang dan kaldu terserap."
+  ],
+  "kategori": "9-12 bulan",
+  "gambar": "https://img-global.cpcdn.com/recipes/0788c9cea765b369/680x482cq70/semur-ayam-mpasi-15-bulan-foto-resep-utama.webp",
+  "kalori": 120,
+  "protein": 4.8,
+  "lemak": 6.1,
+  "karbohidrat": 13
+},
+{
+  "makanan": "Nasi Goreng Udang",
+  "porsi": 3,
+  "bahan": {
+    "nasi": "150 gram",
+    "udang": "100 gram, buang kulitnya",
+    "tepung maizena": "1/2 sdt",
+    "telur": "1 butir, kocok",
+    "kacang polong": "30 gram",
+    "minyak jagung": "15 ml, untuk menumis",
+    "daun bawang": "secukupnya, iris tipis",
+    "garam": "secukupnya",
+    "bawang putih": "2 siung",
+    "bawang merah": "1 butir"
+  },
+  "cara_masak": [
+    "1. Lumuri udang dengan garam dan tepung maizena, diamkan sekitar 15 menit.",
+    "2. Goreng udang hingga matang, masukkan telur dan kacang polong, lalu diorak-arik. Sisihkan.",
+    "3. Tumis bumbu halus hingga harum, masukkan daun bawang.",
+    "4. Tambahkan nasi dan garam secukupnya, aduk rata.",
+    "5. Masukkan udang, orak-arik telur, dan kacang polong, lalu aduk hingga tercampur rata."
+  ],
+  "kategori": "12-23 bulan",
+  "gambar": "https://img-global.cpcdn.com/recipes/5816a9a6366493df/680x482cq70/menu-mpasi-12-nasi-goreng-udang-ala-dr-meta-hanindhita-foto-resep-utama.webp",
+  "kalori": 183,
+  "protein": 11.2,
+  "lemak": 7.6,
+  "karbohidrat": 17
+},
+{
+  "makanan": "Sup Ayam",
+  "porsi": 3,
+  "bahan": {
+    "nasi": "150 gram",
+    "dada ayam": "100 gram, rebus, suwir",
+    "kaldu ayam": "750 ml",
+    "jagung manis pipil": "30 gram",
+    "wortel": "1 batang, potong kotak",
+    "daun bawang": "1 batang, potong kecil",
+    "tomat": "1/2 buah, potong kecil",
+    "margarin": "2 sdm",
+    "garam": "secukupnya",
+    "merica": "secukupnya",
+    "pala": "secukupnya",
+    "seledri": "secukupnya"
+  },
+  "cara_masak": [
+    "1. Rebus kaldu ayam dengan wortel, jagung manis, seledri, dan daun bawang hingga harum.",
+    "2. Masukkan dada ayam suwir, garam, merica, dan pala secukupnya, masak hingga mendidih.",
+    "3. Masukkan tomat, masak hingga layu.",
+    "4. Sajikan dengan nasi dan mentega yang dilelehkan di atas nasi."
+  ],
+  "kategori": "12-23 bulan",
+  "gambar": "https://img-global.cpcdn.com/recipes/38948bcdadb1fe69/680x482cq70/sup-ayam-mpasi-9-bulan-foto-resep-utama.webp",
+  "kalori": 210,
+  "protein": 10.1,
+  "lemak": 8.2,
+  "karbohidrat": 24.2
+},
+{
+  "makanan": "Nasi Campur",
+  "porsi": 3,
+  "bahan": {
+    "nasi": "200 gram",
+    "telur": "3 butir, kocok lepas",
+    "daun bawang": "1 batang, iris tipis",
+    "bawang bombai": "1/2 buah, cincang kasar",
+    "wortel": "15 gram, cincang halus",
+    "daging ayam giling": "30 gram, rebus matang",
+    "minyak jagung": "3 sdm",
+    "merica": "secukupnya",
+    "garam": "secukupnya",
+    "bawang putih": "2 siung",
+    "bawang merah": "1 siung"
+  },
+  "cara_masak": [
+    "1. Campur telur dengan daun bawang, bawang bombai, wortel, daging ayam giling, garam, merica, dan bumbu halus. Aduk hingga tercampur rata.",
+    "2. Goreng dengan minyak jagung hingga matang.",
+    "3. Sajikan dengan nasi."
+  ],
+  "kategori": "12-23 bulan",
+  "gambar": "https://img-global.cpcdn.com/recipes/46269b51d18e363b/680x482cq70/nasi-campur-campur-dadakan-mpasi-tak-terduga-foto-resep-utama.webp",
+  "kalori": 230,
+  "protein": 10.8,
+  "lemak": 12.1,
+  "karbohidrat": 18.8
+},
+{
+  "makanan": "Puding Susu Vanila",
+  "porsi": 15,
+  "bahan": {
+    "kuning telur": "60 gram (2 butir), kocok lepas",
+    "susu": "800 ml",
+    "gula": "100 gram",
+    "pasta vanila": "1/2 sendok teh",
+    "agar-agar": "1 bungkus",
+    "garam": "1/2 sendok teh"
+  },
+  "cara_masak": [
+    "Tuang susu cair, agar-agar, dan gula ke dalam panci.",
+    "Rebus sampai mendidih.",
+    "Ambil sedikit adonan rebusan, lalu campur dengan kuning telur. Aduk rata.",
+    "Kemudian masukkan kembali ke dalam rebusan susu dan agar-agar. Beri pasta vanila dan garam, aduk rata.",
+    "Tuang pada cetakan atau cangkir, tunggu hingga membeku."
+  ],
+  "kategori": "6-8 bulan",
+  "gambar": "https://asset.kompas.com/crops/F6bn-tKN8VjBZVKgszG2zOQQ92w=/0x0:1000x667/750x500/data/photo/2023/09/11/64fe78d0552bd.jpg",
+  "kalori": 1045,
+  "protein": 34.69,
+  "lemak": 40.9,
+  "karbohidrat": 144
+},
+{
+  "makanan": "Roti Kukus Keju",
+  "porsi": 4,
+  "bahan": {
+    "roti tawar": "2 lembar, potong kecil-kecil",
+    "susu cair": "125 ml",
+    "telur": "1/2 butir",
+    "margarin": "1 1/2 sdt, lelehkan",
+    "keju": "50 gram, parut",
+    "bubuk vanili": "secukupnya"
+  },
+  "cara_masak": [
+    "Campur semua bahan (kecuali keju parut) dan haluskan dengan blender.",
+    "Masukkan ke dalam panci, lalu masak hingga mendidih dan mengental.",
+    "Masukkan ke dalam cetakan, lalu taburkan parutan keju di atasnya.",
+    "Kukus adonan hingga matang.",
+    "Jika diperlukan, saring hingga teksturnya sesuai yang diinginkan."
+  ],
+  "kategori": "6-8 bulan",
+  "gambar": "https://img-global.cpcdn.com/recipes/5f7bfcb839455e6a/680x482cq70/roti-kukus-keju-mpasi-foto-resep-utama.webp",
+  "kalori": 130,
+  "karbohidrat": 11.4,
+  "lemak": 8.4,
+  "protein": 6.7
+},
+{
+  "makanan": "Tim Makaroni",
+  "porsi": 3,
+  "bahan": {
+    "makaroni": "50 gram (mentah), rebus hingga lunak",
+    "daging ayam": "60 gram, cincang",
+    "brokoli": "30 gram, cincang halus",
+    "bawang bombai": "1 sdm, cincang",
+    "susu sapi": "50 ml",
+    "minyak canola": "10 ml, untuk menumis",
+    "keju parut": "secukupnya",
+    "garam": "secukupnya"
+  },
+  "cara_masak": [
+    "Tumis bawang bombai dengan bumbu halus hingga harum, masukkan daging ayam cincang dan garam secukupnya, aduk hingga berubah warna.",
+    "Masukkan brokoli, aduk merata hingga matang.",
+    "Masukkan makaroni dan tumisan daging ayam cincang brokoli ke dalam wadah tahan panas, tambahkan susu, lalu kukus hingga teksturnya sesuai yang diinginkan.",
+    "Sajikan dengan parutan keju."
+  ],
+  "kategori": "9-11 bulan",
+  "gambar": "https://asset.kompas.com/crops/bHYxReuGPoT5y1x7GFX4E3QEURg=/35x14:648x423/750x500/data/photo/2021/11/16/619352ec3f1b2.jpg",
+  "kalori": 140,
+  "karbohidrat": 15,
+  "lemak": 5.8,
+  "protein": 5.7
+},
+{
+  "makanan": "Bola Bola Tenggiri",
+  "porsi": 10,
+  "bahan": {
+    "ikan tenggiri": "30 gram",
+    "telur ayam": "1 butir",
+    "roti": "2 lembar",
+    "daun bawang": "secukupnya, iris tipis",
+    "tepung oat": "secukupnya",
+    "keju parut": "secukupnya",
+    "garam": "secukupnya",
+    "minyak jagung": "untuk menggoreng"
+  },
+  "cara_masak": [
+    "Potong roti tawar menjadi kotak-kotak kecil.",
+    "Campur ikan tenggiri yang sudah dipotong kecil-kecil dengan telur ayam, daun bawang, tepung oat, dan garam, lalu bentuk menjadi bola kecil.",
+    "Gulingkan adonan ke dalam potongan roti tawar sampai adonan tertutup rata dengan potongan roti tawar.",
+    "Goreng hingga matang kecokelatan, taburi dengan parutan keju."
+  ],
+  "kategori": "9-11 Bulan",
+  "gambar": "https://img.kurio.network/CWfZn7x0331q8BoKlVo_Ndt8qj8=/440x440/filters:quality(80)/https://kurio-img.kurioapps.com/22/09/26/11a30c34-e975-42e7-9268-759f2f35a74f.jpg",
+  "kalori": 49.3,
+  "karbohidrat": 2,
+  "lemak": 3.5,
+  "protein": 2.4
+},
+{
+  "makanan": "Lemper Ayam",
+  "porsi": 5,
+  "bahan": {
+    "nasi ketan": "100 gram, matang",
+    "santan": "75 ml",
+    "daging ayam": "75 gram, cincang",
+    "daun jeruk": "2 lembar",
+    "daun salam": "1 lembar",
+    "serai": "1 batang, memarkan",
+    "minyak jagung": "10 ml, untuk menumis",
+    "garam": "secukupnya",
+    "gula": "secukupnya",
+    "daun pisang": "untuk membungkus",
+    "bawang putih": "2 siung",
+    "bawang merah": "2 buah",
+    "kemiri sangrai": "1 butir",
+    "ketumbar": "secukupnya"
+  },
+  "cara_masak": [
+    "Tumis bumbu halus hingga harum, lalu masukkan daging ayam cincang, garam, gula, dan serai. Aduk hingga merata.",
+    "Masukkan santan, daun jeruk, dan daun salam, masak hingga santan terserap dan matang.",
+    "Ambil ketan, isi dengan daging ayam, lalu bungkus dengan daun pisang."
+  ],
+  "kategori": "9-11 bulan",
+  "gambar": "https://img-global.cpcdn.com/recipes/9880b77d38d9d571/400x400cq70/photo.jpg",
+  "kalori": 72,
+  "karbohidrat": 4.6,
+  "lemak": 3.7,
+  "protein": 5
+},
+{
+  "makanan": "Bubur Udang Tahu",
+  "porsi": 1,
+  "bahan": {
+    "nasi": "60 gram",
+    "udang giling": "45 gram",
+    "santan cair": "30 ml",
+    "tahu": "20 gram, potong kecil-kecil",
+    "tomat": "10 gram, potong kecil-kecil",
+    "kemangi": "secukupnya",
+    "daun salam": "secukupnya",
+    "jeruk nipis": "secukupnya",
+    "garam": "secukupnya",
+    "bawang merah": "1 butir",
+    "bawang putih": "1/2 siung",
+    "kemiri": "1 butir",
+    "jahe": "1/3 cm",
+    "gula": "secukupnya"
+  },
+  "cara_masak": [
+    "Lumuri udang dengan air jeruk nipis dan garam, lalu diamkan sekitar 15 menit.",
+    "Campur udang, tahu, tomat, kemangi, santan cair, dan bumbu halus hingga merata.",
+    "Bungkus dengan daun pisang, masukkan juga daun salam. Kukus hingga matang. Ketika akan dicampur dengan nasi, ambil kemangi dan daun salamnya. Lalu saring hingga teksturnya sesuai yang diinginkan."
+  ],
+  "kategori": "6-8 bulan",
+  "gambar": "https://ik.imagekit.io/primaku/article_image/2d25a51c9ad22b25fdbacf9fbe7110045_1687253548079..jpg?tr=w-500",
+  "kalori": 67,
+  "karbohidrat": 6.1,
+  "lemak": 3.2,
+  "protein": 4.3
+},
+{
+  "makanan": "Pure Melon Yogurt",
+  "porsi": 3,
+  "bahan": {
+    "daging buah melon": "100 gram, pilih yang benar-benar matang",
+    "pisang ambon": "¼ buah",
+    "yogurt plain": "25 ml"
+  },
+  "cara_masak": [
+    "Potong-potong daging buah melon dan pisang ambon. Kalau sudah dipotong-potong, satukan melon, pisang, dan yogurt.",
+    "Proses dengan blender sampai halus. Sajikan untuk Si Kecil."
+  ],
+  "kategori": "6-8 bulan",
+  "gambar": "https://img-global.cpcdn.com/recipes/b46ba86ff6433179/680x482cq70/apel-melon-with-yogurt-8m-mpasi-foto-resep-utama.webp",
+  "kalori": 82.2,
+  "protein": 2.0,
+  "lemak": 0.4,
+  "karbohidrat": 18.1
+},
+{
+  "makanan": "Alpukat Susu",
+  "porsi": 1,
+  "bahan": {
+    "alpukat matang": "125 gram (kurang lebih ½ buah)",
+    "air matang": "25 ml",
+    "ASI perah atau susu formula": "100 ml"
+  },
+  "cara_masak": [
+    "Keruk daging buah alpukat dengan sendok. Haluskan bersama air matang menggunakan blender, tuang ke dalam wadah makan.",
+    "Tuang ASI perah, aduk hingga tercampur rata. Saring dan sajikan."
+  ],
+  "kategori": "6-8 bulan",
+  "gambar": "https://akcdn.detik.net.id/community/media/visual/2022/08/26/snack-mpasi-6-bulan_169.jpeg?w=620",
+  "kalori": 133,
+  "protein": 1.7,
+  "lemak": 11.5,
+  "karbohidrat": 8.3
+},
+{
+  "makanan": "Bolu Ubi Ungu",
+  "porsi": 5,
+  "bahan": {
+    "ubi ungu": "100 gram, kukus",
+    "telur ayam": "1 butir",
+    "keju parut": "secukupnya"
+  },
+  "cara_masak": [
+    "Campurkan ubi ungu kukus dan telur pada sebuah wadah, aduk-aduk sampai rata.",
+    "Pindahkan adonan ke dalam cup atau wadah kecil tahan panas.",
+    "Tabur keju di bagian atas adonan.",
+    "Kukus kurang lebih 15 menit.",
+    "Bolu ubi ungu siap diberikan untuk si Kecil di jadwal snacknya."
+  ],
+  "kategori": "9-12 bulan",
+  "gambar": "https://o-cdn-cas.sirclocdn.com/parenting/images/XX_Resep_MPASI_Ubi_Ungu_Untuk_Bay.width-800.format-webp_ZvolUVr.webp",
+  "kalori": 156,
+  "protein": 6.6,
+  "lemak": 6.5,
+  "karbohidrat": 18.7
+},
+{
+  "makanan": "Creamy Pasta dengan Brokoli",
+  "porsi": 3,
+  "bahan": {
+    "brokoli": "100 gram",
+    "keju cheddar": "50 gram",
+    "pasta": "50 gram",
+    "susu": "275 ml"
+  },
+  "cara_masak": [
+    "Potong brokoli menjadi potongan-potongan kecil, pertahankan kuntumnya dan buang batangnya yang tebal.",
+    "Panaskan susu dalam panci dan tambahkan brokoli. Masak selama 10-15 menit sampai lunak.",
+    "Sementara itu, masak pasta di panci terpisah, ikuti petunjuk paket - sekitar 8-10 menit.",
+    "Tiriskan pasta dan tambahkan brokoli dan susu.",
+    "Tambahkan keju dan aduk hingga keju meleleh. Untuk penyajian, pilih sesuai dengan usia bayi."
+  ],
+  "kategori": "9-12 bulan",
+  "gambar": "https://media.suara.com/pictures/653x366/2024/02/05/34928-resep-creamy-meatball-pasta-dari-chef-devina-hermawan.webp",
+  "kalori": 610,
+  "protein": 15.1,
+  "lemak": 33.99,
+  "karbohidrat": 57.8
+},
+{
+  "makanan": "Bubur Kacang Hijau Susu",
+  "porsi": 1,
+  "bahan": {
+    "tepung kacang hijau": "50 gram",
+    "air": "150 ml",
+    "ASI perah atau susu formula": "100 ml"
+  },
+  "cara_masak": [
+    "Larutkan tepung kacang hijau bersama air, masak sambil diaduk dengan api kecil hingga matang. Kemudian angkat.",
+    "Saring ke dalam wadah. Tuang ASI perah, aduk hingga rata."
+  ],
+  "kategori": "6-8 bulan",
+  "gambar": "https://www.generasimaju.co.id/articles/article/image-thumb__593134__motherhood-big-article/Resep%20MPASI%20Bubur%20Kacang%20Hijau-min_1.webp",
+  "kalori": 61.5,
+  "protein": 2.4,
+  "lemak": 2.1,
+  "karbohidrat": 8.8
+},
+{
+  "makanan": "Perkedel dari Kentang dan Kacang Merah",
+  "porsi": 4,
+  "bahan": {
+    "telur ayam": "1 butir",
+    "kentang kukus yang sudah dihaluskan": "2 buah",
+    "wortel kukus yang sudah dihaluskan": "1 buah",
+    "potong bagian paha tanpa kulit yang sudah digiling halus": "1 potong",
+    "kacang merah rebus yang sudah dihaluskan": "2 sendok makan",
+    "gula": "0.5 sendok teh",
+    "garam": "0.5 sendok teh",
+    "daun seledri yang sudah dicincang halus": "3 lembar"
+  },
+  "cara_masak": [
+    "Pecahkan telur dan kocok hingga semua bagian bercampur menjadi satu. Campur juga semua sisa bahan di wadah yang berbeda dengan telur.",
+    "Ketika sudah tercampur rata, Anda bisa langsung membentuk adonan kentang tersebut dalam bentuk bulat pipih untuk membuatnya terlihat seperti perkedel pada umumnya. Lakukan hal yang sama sampai semua adonan habis.",
+    "Kemudian celupkan adonan yang sudah dibentuk ke dalam kocokan telur dan goreng dengan minyak. Ulang proses ini sampai semua adonan digoreng. Jika sudah kecokelatan maka perkedel bisa diangkat, lalu disajikan."
+  ],
+  "kategori": "12-23 bulan",
+  "gambar": "https://crystalsea.id/blog/wp-content/uploads/2022/07/MPASI-1-Tahun-Perkedel-dari-Kentang-dan-Kacang-Merah-1024x682.webp",
+  "kalori": 250,
+  "protein": 10,
+  "lemak": 8,
+  "karbohidrat": 35
+},
+{
+  "makanan": "Nasi Goreng Telur",
+  "porsi": 2,
+  "bahan": {
+    "nasi putih": "5 sendok makan",
+    "telur": "1 butir",
+    "daging ayam cincang (optional)": "secukupnya",
+    "bawang putih": "1 siung",
+    "bawang merah": "1 siung",
+    "butter": "2 sendok makan",
+    "buncis": "3 buah",
+    "wortel": "0.5 buah",
+    "garam": "0.25 sendok teh",
+    "kecap manis": "1 sendok teh"
+  },
+  "cara_masak": [
+    "Panaskan wajan dan masukkan butter. Tumis bawang putih dan bawang merah yang telah diiris halus hingga harum.",
+    "Masukkan buncis dan wortel yang telah dipotong kecil-kecil, serta telur atau daging ayam. Aduk semua bahan hingga rata.",
+    "Tambahkan nasi, garam, dan kecap manis. Masak dan aduk hingga semua bahan tercampur secara merata.",
+    "Jika sudah matang, nasi goreng siap disajikan."
+  ],
+  "kategori": "12-23 bulan",
+  "gambar": "https://crystalsea.id/blog/wp-content/uploads/2022/07/MPASI-Anak-Usia-1-Tahun-Nasi-Goreng-Telur-1024x682.webp",
+  "kalori": 300,
+  "protein": 12,
+  "lemak": 10,
+  "karbohidrat": 40
+},
+{
+  "makanan": "Nugget Sayuran",
+  "porsi": 4,
+  "bahan": {
+    "ubi jalar merah rebus, haluskan": "150 gram",
+    "telur ayam, kocok": "50 gram",
+    "daging ayam": "30 gram",
+    "bayam, cincang kasar": "1 cangkir",
+    "wortel, parut kasar": "20 gram",
+    "bawang putih, cincang": "3 siung",
+    "garam": "secukupnya",
+    "minyak untuk menggoreng": "secukupnya"
+  },
+  "cara_masak": [
+    "Campurkan bayam, wortel, ubi, telur, daging ayam, bawang putih, dan garam hingga rata.",
+    "Ambil 1 sendok makan bahan dan bentuk bulat pipih menggunakan tangan. Lakukan langkah serupa pada sisa bahan.",
+    "Celupkan nugget yang telah dibentuk ke dalam kocokan telur dan goreng dalam minyak panas hingga berubah warna dan matang. Angkat dan tiriskan.",
+    "Lakukan langkah serupa pada sisa bahan. Sajikan selagi hangat."
+  ],
+  "kategori": "12-23 bulan",
+  "gambar": "https://mmc.tirto.id/image/otf/970x0/2019/07/10/nugget-ayam-istockphoto_ratio-16x9.jpg",
+  "kalori": 270.5,
+  "protein": 10.6,
+  "lemak": 15.7,
+  "karbohidrat": 30
+},
+{
+  "makanan": "Soto Kudus",
+  "porsi": 4,
+  "bahan": {
+    "daging ayam": "500 gram",
+    "air": "2 liter",
+    "jahe, memarkan": "1 seruas",
+    "serai": "2 batang",
+    "bawang merah, iris halus": "6 butir",
+    "telur ayam, rebus, belah dua": "3 butir",
+    "tauge, seduh air panas": "100 gram",
+    "daun seledri, iris atau daun kucai": "3 utas",
+    "jeruk nipis": "secukupnya",
+    "bawang putih": "10 siung",
+    "jintan": "1 sendok teh",
+    "ketumbar, sangrai": "1 sendok teh",
+    "kunyit, sangrai/bakar": "2 sendok makan",
+    "garam": "secukupnya",
+    "merica": "secukupnya"
+  },
+  "cara_masak": [
+    "Rebus ayam, masukkan jahe dan serai, masak hingga ayam lunak. Angkat, suwir dagingnya, dan sisihkan.",
+    "Sangrai bawang merah iris dan bumbu yang dihaluskan hingga harum dengan api kecil.",
+    "Tuang kuah ayam panas-panas dan didihkan kembali.",
+    "Siapkan mangkok, tata taoge, ayam, telur, tuangkan kuah dalam mangkuk, taburi dengan irisan daun seledri atau daun kucai, peras jeruk nipis di atasnya.",
+    "Sajikan selagi hangat."
+  ],
+  "kategori": "12-23 bulan",
+  "gambar": "https://assets.unileversolutions.com/recipes-v3/241687-default.jpg?im=AspectCrop=(720,459);Resize=(720,459)",
+  "kalori": 350,
+  "protein": 20,
+  "lemak": 15,
+  "karbohidrat": 30
+},
+{
+  "makanan": "Ikan Bakar",
+  "porsi": 4,
+  "bahan": {
+    "ikan air tawar": "1 ekor",
+    "jeruk nipis": "2 buah",
+    "bawang putih": "1 siung",
+    "bawang merah": "5 butir",
+    "ketumbar": "0.5 sendok teh",
+    "jahe": "1 cm",
+    "kunyit": "1 cm",
+    "garam": "secukupnya"
+  },
+  "cara_masak": [
+    "Lumuri ikan dengan jeruk nipis.",
+    "Bakar di atas bara, olesi bumbu yang telah dihaluskan selama membakar ikan.",
+    "Masak hingga matang, angkat dan sajikan."
+  ],
+  "kategori": "12-23 bulan",
+  "gambar": "https://img.herstory.co.id/articles/archive_20220821/resep-mpasi-20220821-205155.webp",
+  "kalori": 140.6,
+  "protein": 19.7,
+  "lemak": 5.6,
+  "karbohidrat": 0
+}

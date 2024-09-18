@@ -1,0 +1,46 @@
+<%- include('layouts/heading') %>
+
+<%- include('layouts/sidebar') %>
+
+<main id="main" class="main">
+    <div class="pagetitle">
+        <h1><%= title %></h1>
+        <nav>
+            <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Halaman</a></li>
+            <li class="breadcrumb-item active"><%= title %></li>
+            </ol>
+        </nav>
+    </div>
+
+    <%- include('layouts/cardMpasi') %>
+    
+    <!-- Pagination -->
+    
+    <div id="pagination">
+  <% if (pages > 1) { %>
+    <% if (page < pages) { %>
+    <% } %>
+    <% if (page > 1) { %>
+      <a class="pagination-button" href="/mpasi?page=1&limit=<%= limit %>">First</a>
+      <a class="pagination-button" href="/mpasi?page=<%= page - 1 %>&limit=<%= limit %>">Previous</a>
+    <% } %>
+    <% for (let i = 1; i <= pages; i++) { %>
+      <a class="pagination-button <% if (page == i) { %>active<% } %>" href="/mpasi?page=<%= i %>&limit=<%= limit %>"><%= i %></a>
+    <% } %>
+    <% if (page < pages) { %>
+      <a class="pagination-button" href="/mpasi?page=<%= page + 1 %>&limit=<%= limit %>">Next</a>
+      <a class="pagination-button" href="/mpasi?page=<%= pages %>&limit=<%= limit %>">Last</a>      
+    <% } %>
+  <% } %>
+</div>
+
+</main>
+
+<script src="/js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="mpasi-handler.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

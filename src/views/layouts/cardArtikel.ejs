@@ -1,0 +1,177 @@
+<section class="container">
+    <div class="row mb-4 align-items-center">
+        <div class="col">
+            <button type="button" class="btn button-tambah" data-bs-toggle="modal" data-bs-target="#tambahArtikelModal">
+                Tambah Data
+            </button>
+        </div>
+        <div class="col-lg-6">
+            <div class="input-group">
+                <form id="searchForm" style="flex-direction: row; display: flex; margin-block: auto; width: 100%;">
+                    <input type="text" id="searchKeyword" class="form-control" placeholder="Cari..." style="flex-grow: 1; margin-right: 8px;">
+                    <button class="btn text-white btn-outline-light searchBtn" type="submit" id="button-search" style="flex-shrink: 0;"><i class="bi bi-search"></i></button>
+                </form>
+            </div>
+        </div>        
+        <div class="col">
+            <div class="input-group">
+                <select class="form-select" id="filter-kategori" aria-label="Filter">
+                    <option value="semua">Semua Kategori</option>
+                    <option value="6-8 bulan">6-8 bulan</option>
+                    <option value="9-12 bulan">9-12 bulan</option>
+                    <option value="12-23 bulan">12-23 bulan</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="artikelList">
+        <% if (userRole === 'admin') { %>
+            <% for (let i = 0; i < data.length; i++) { %>
+                <% if (data[i].status === 'draft') { %>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card h-100 position-relative">
+                            <div class="category-label position-absolute start-0 p-2 bg-warning text-dark rounded">
+                                <%= data[i].kategori %>
+                            </div>
+                            <img src="<%= data[i].gambar %>" alt="<%= data[i].judul %>" class="card-img-top skeleton-img" style="height: 150px; background-color: #e1e1e1; object-fit: cover;">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title"><%= data[i].judul %></h5>
+                                <div class="mt-auto d-flex justify-content-center">
+                                    <button type="button" id="edit-button" class="btn button-tambah px-4 me-2" data-bs-toggle="modal" data-bs-target="#editArtikelModal" data-id="<%= data[i].id %>"><i class="bi bi-pencil"></i></button>
+                                    <button type="button" id="delete-button" class="btn px-4 btn-danger" data-id="<%= data[i].id %>"><i class="bi bi-trash"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <% } %>
+            <% } %>
+        <% } else if (userRole === 'superadmin') { %>
+            <% for (let i = 0; i < data.length; i++) { %>
+                <% if (data[i].status === 'draft' || data[i].status === 'published') { %>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                        <div class="card h-100 position-relative">
+                            <div class="category-label position-absolute start-0 p-2 bg-warning text-dark rounded">
+                                <%= data[i].kategori %>
+                            </div>
+                            <img src="<%= data[i].gambar %>" alt="<%= data[i].judul %>" class="card-img-top skeleton-img" style="height: 150px; background-color: #e1e1e1; object-fit: cover;">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title"><%= data[i].judul %></h5>
+                                <div class="mt-auto d-flex justify-content-center">
+                                    <button type="button" id="edit-button" class="btn button-tambah px-4 me-2" data-bs-toggle="modal" data-bs-target="#editArtikelModal" data-id="<%= data[i].id %>"><i class="bi bi-pencil"></i></button>
+                                    <button type="button" id="delete-button" class="btn px-4 btn-danger me-2" data-id="<%= data[i].id %>"><i class="bi bi-trash"></i></button>
+                                    <% if (data[i].status === 'draft') { %>
+                                        <button type="button" id="publish-button" class="btn btn-success  px-4 me-2" data-id="<%= data[i].id %>">Publish</button>
+                                    <% } %>
+                                    <% if (data[i].status === 'published') { %>
+                                        <button type="button" id="draft-button" class="btn btn-primary  px-4 me-2" data-id="<%= data[i].id %>">Draft</button>
+                                    <% } %>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <% } %>
+            <% } %>
+        <% } %>
+    </div>
+</section>
+
+
+<!-- Add Modal for Artikel -->
+<div class="modal fade" id="tambahArtikelModal" tabindex="-1" aria-labelledby="tambahArtikelModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <form id="tambahArtikelForm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="tambahArtikelModalLabel">Tambah Data Artikel</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Kembali"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="inputJudul" class="form-label">Judul</label>
+                        <input type="text" class="form-control" id="inputJudul" name="judul" placeholder="Masukkan judul artikel" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputDeskripsi" class="form-label">Deskripsi</label>
+                        <textarea class="form-control" id="inputDeskripsi" name="deskripsi" rows="5" placeholder="Masukkan deskripsi artikel" required></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputTanggal" class="form-label">Tanggal</label>
+                        <input type="date" class="form-control" id="inputTanggal" name="tanggal" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputSumber" class="form-label">Sumber</label>
+                        <input type="url" class="form-control" id="inputSumber" name="sumber" placeholder="Masukkan URL sumber artikel" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputGambar" class="form-label">URL Gambar</label>
+                        <input type="url" class="form-control" id="inputGambar" name="gambar" placeholder="Masukkan URL gambar" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputKategori" class="form-label">Kategori</label>
+                        <select class="form-select" id="inputKategori" required>
+                            <option value="" disabled selected>Pilih Kategori</option>
+                            <option value="Semua kategori">Semua Kategori</option>
+                            <option value="6-8 bulan">6-8 bulan</option>
+                            <option value="9-12 bulan">9-12 bulan</option>
+                            <option value="12-23 bulan">12-23 bulan</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kembali</button>
+                    <button type="submit" class="btn button-tambah">Tambah Data</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Edit Modal for Artikel -->
+<div class="modal fade" id="editArtikelModal" tabindex="-1" aria-labelledby="editArtikelModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <form id="editArtikelForm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="editArtikelModalLabel">Edit Data Artikel</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Kembali"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="editId" name="id">
+                    <div class="mb-3">
+                        <label for="editJudul" class="form-label">Judul</label>
+                        <input type="text" class="form-control" id="editJudul" name="judul" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="editDeskripsi" class="form-label">Deskripsi</label>
+                        <textarea class="form-control" id="editDeskripsi" name="deskripsi" rows="5" required></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="editTanggal" class="form-label">Tanggal</label>
+                        <input type="date" class="form-control" id="editTanggal" name="tanggal" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="editSumber" class="form-label">Sumber</label>
+                        <input type="url" class="form-control" id="editSumber" name="sumber" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="editGambar" class="form-label">URL Gambar</label>
+                        <input type="url" class="form-control" id="editGambar" name="gambar" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="editKategori" class="form-label">Kategori</label>
+                        <select class="form-select" id="editKategori" required>
+                          <option value="semua">Semua Kategori</option>
+                          <option value="6-8 bulan">6-8 bulan</option>
+                          <option value="9-12 bulan">9-12 bulan</option>
+                          <option value="12-23 bulan">12-23 bulan</option>
+                        </select>
+                    </div>      
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kembali</button>
+                    <button type="submit" class="btn button-tambah">Simpan Perubahan</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
